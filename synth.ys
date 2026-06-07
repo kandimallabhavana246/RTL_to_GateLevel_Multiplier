@@ -1,0 +1,17 @@
+read_verilog multiplier_8bit.v
+
+hierarchy -top multiplier_8bit
+
+proc
+
+opt
+
+techmap
+
+opt
+
+abc
+
+clean
+
+write_verilog multiplier_netlist.v
